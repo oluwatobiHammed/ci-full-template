@@ -138,6 +138,21 @@ def calculate_stock_data(data):
         new_stock_data.append(round(stock_num))
 
     return new_stock_data
+def get_stock_values(data):
+    # Get the 'stock' worksheet
+    worksheet = SHEET.worksheet("stock")
+    
+    # Get the headers (first row)
+    headings = worksheet.row_values(1)
+
+   # Check if the number of data values matches the number of headings
+    if len(data) != len(headings):
+        raise ValueError("The number of data values must match the number of headings")
+    
+     # Create a dictionary by merging headings and data
+    data_dict = dict(zip(headings, data))
+    
+    return data_dict
 
 def main():
     """
@@ -153,8 +168,13 @@ def main():
     sales_columns = get_last_5_entires_sales()
     stock_data = calculate_stock_data(sales_columns)
     update_worksheet(stock_data, "stock")
+   
     return stock_data
 
+stock_data = main()
+stock_values = get_stock_values(stock_data)
 
 print("Welcome to Love Sandwiches data automation.\n")
-stock_data = main()
+
+print(stock_values)
+# 
