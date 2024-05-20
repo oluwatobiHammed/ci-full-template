@@ -138,6 +138,7 @@ def calculate_stock_data(data):
         new_stock_data.append(round(stock_num))
 
     return new_stock_data
+
 def get_stock_values(data):
     # Get the 'stock' worksheet
     worksheet = SHEET.worksheet("stock")
