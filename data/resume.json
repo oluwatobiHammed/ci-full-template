@@ -1,0 +1,52 @@
+[
+    {
+        "experiences": [
+          {
+            "details": [
+              "Developed and launched a new feature on a banking application, resulting in an 80% increase in new account registrations and substantial funds generation.",
+              "Implemented architectural improvements (MVVM-C pattern, Swift injection) for improved code quality and stability.",
+              "Optimized application performance and responsiveness, resulting in a 20% decrease in app loading time and higher user satisfaction ratings.",
+              "Streamlined development processes by introducing CI/CD pipelines, reducing time-to-market by 25% and improving overall efficiency.",
+              "Implemented effective monitoring and issue resolution practices, maintaining optimal application health for uninterrupted user experiences.",
+              "Collaborated closely with cross-functional teams to deliver weekly feature updates, driving a 15% increase in user engagement and retention rates."
+            ],
+            "date": "2022 - Present",
+            "position": " iOS Engineer",
+            "company": "Baby2body",
+            "location": "London, UK"
+
+          },
+          {
+            "details": [
+              "Integrated groundbreaking AI Companion Support into the baby2body App.",
+              "Utilized CI/CD tools like Git, Github, Bitbucket, Jenkins, and Fastlane for efficient feature releases.",
+              "Collaborated with cross-functional teams to deliver weekly features, increasing user engagement by 20%.",
+              "Improved app performance, leading to a 15% increase in app ratings and a 25% decrease in crash incidents.",
+              "Conducted periodic code reviews and refactoring sessions to improve the maintainability and scalability of the front-end architecture.",
+              "Defined requirements for new features and enhancements, following best practices in user experience design and front-end development.",
+              "Implemented interactive elements and integration with third-party services as required.",
+              "Oversaw the testing phase for new features, including unit testing, integration testing, and acceptance testing.",
+              "Served as the primary contact for front-end related incidents and bugs, prioritizing issues based on severity.",
+              "Developed and maintained an efficient system for tracking, reporting, and resolving issues in a timely manner.",
+              "Provided technical support to other team members and stakeholders, offering guidance and assistance to proactively identify and address potential issues before they affect users.",
+              "Maintained up-to-date documentation on application setup, configuration, and routine maintenance procedures to assist with knowledge sharing and onboarding new team members."
+            ],
+            "date": "2018 - 2022",
+            "position": " iOS Engineer",
+            "company": "Aveo360 Ltd",
+            "location": "Manchester, UK"
+          }
+        ],
+        "Education": [
+    {
+        "detail": "I am a computer science graduate from the University of Lagos, class of 2018. Starting in 2012, I built a strong foundation in software development, data structures, and algorithms. During my studies, I participated in hackathons, winning top positions, and developed a keen interest in AI and machine learning. My internship at a leading tech firm allowed me to contribute to innovative real-world solutions. Passionate about technology, I continue to enhance my skills through coding challenges and open-source projects. I am dedicated to mentoring younger STEM students and am focused on advancing my career in the tech industry.",
+        "date": "2012 - 2018",
+        "school": "University of Lagos",
+        "degree": "Bachelor of science",
+        "location": "Lagos, NG",
+        "course": "Computer Science"
+    }
+    ]
+}
+      
+]
