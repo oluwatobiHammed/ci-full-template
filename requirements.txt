@@ -3,4 +3,6 @@ gunicorn==20.1.0
 requests==2.25.1
 gspread==5.1.1
 google-auth==2.0.2
+werkzeug==2.0.3
+
 
